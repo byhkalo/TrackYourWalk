@@ -7,13 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5F52B7922E1D2B300F911F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52B7822E1D2B300F911F0 /* AppDelegate.swift */; };
-		A5F52B7B22E1D2B300F911F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52B7A22E1D2B300F911F0 /* ViewController.swift */; };
-		A5F52B7E22E1D2B300F911F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F52B7C22E1D2B300F911F0 /* Main.storyboard */; };
-		A5F52B8122E1D2B300F911F0 /* TrackYourWalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5F52B7F22E1D2B300F911F0 /* TrackYourWalk.xcdatamodeld */; };
-		A5F52B8322E1D2B400F911F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F52B8222E1D2B400F911F0 /* Assets.xcassets */; };
-		A5F52B8622E1D2B400F911F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F52B8422E1D2B400F911F0 /* LaunchScreen.storyboard */; };
+		811FF9B4D5ED7CD69120BC72 /* Pods_TrackYourWalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05FB89706840FEFF6E8472F /* Pods_TrackYourWalk.framework */; };
+		A51A1CBE22EB88E100F939F2 /* WalkManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A1CBA22EB887900F939F2 /* WalkManagerTest.swift */; };
+		A51A1CC122EB892B00F939F2 /* WalkTrackLocationServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A1CC022EB892B00F939F2 /* WalkTrackLocationServiceMock.swift */; };
+		A51A1CC322EB895300F939F2 /* PhotoPlacesNetworkServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A1CC222EB895300F939F2 /* PhotoPlacesNetworkServiceMock.swift */; };
+		A51A1CC522EB897C00F939F2 /* LocalPhotoDatabaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A1CC422EB897C00F939F2 /* LocalPhotoDatabaseMock.swift */; };
+		A5D661E922E98C3900FFC29C /* CoreDataPhotoModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D661E822E98C3900FFC29C /* CoreDataPhotoModel+CoreDataClass.swift */; };
+		A5D661EA22E98C3900FFC29C /* CoreDataPhotoModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D661E722E98C3900FFC29C /* CoreDataPhotoModel+CoreDataProperties.swift */; };
+		A5D661EE22E99B4900FFC29C /* ViewController+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D661ED22E99B4900FFC29C /* ViewController+Error.swift */; };
 		A5F52B9122E1D2B400F911F0 /* TrackYourWalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52B9022E1D2B400F911F0 /* TrackYourWalkTests.swift */; };
+		A5F52BB222E1D4A400F911F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F52BA522E1D4A400F911F0 /* Assets.xcassets */; };
+		A5F52BB322E1D4A400F911F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F52BA622E1D4A400F911F0 /* LaunchScreen.storyboard */; };
+		A5F52BB422E1D4A400F911F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F52BA822E1D4A400F911F0 /* Main.storyboard */; };
+		A5F52BB522E1D4A400F911F0 /* TrackYourWalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BAA22E1D4A400F911F0 /* TrackYourWalk.xcdatamodeld */; };
+		A5F52BB722E1D4A400F911F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BAF22E1D4A400F911F0 /* AppDelegate.swift */; };
+		A5F52BB922E1D57000F911F0 /* FlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BB822E1D57000F911F0 /* FlowCoordinator.swift */; };
+		A5F52BBB22E1D58B00F911F0 /* ObservableContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BBA22E1D58B00F911F0 /* ObservableContext.swift */; };
+		A5F52BBF22E1D6EA00F911F0 /* Closure+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BBE22E1D6EA00F911F0 /* Closure+Extension.swift */; };
+		A5F52BC322E1D83300F911F0 /* MainFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BC222E1D83300F911F0 /* MainFlowCoordinator.swift */; };
+		A5F52BC522E1D84500F911F0 /* MainFlowContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BC422E1D84500F911F0 /* MainFlowContext.swift */; };
+		A5F52BC722E1D85B00F911F0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BC622E1D85B00F911F0 /* MainViewController.swift */; };
+		A5F52BC922E1D86900F911F0 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BC822E1D86900F911F0 /* MainViewModel.swift */; };
+		A5F52BCE22E1D9D500F911F0 /* WalkPhotoBoothFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BCD22E1D9D500F911F0 /* WalkPhotoBoothFlowCoordinator.swift */; };
+		A5F52BD022E1D9DE00F911F0 /* WalkPhotoBoothFlowContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BCF22E1D9DE00F911F0 /* WalkPhotoBoothFlowContext.swift */; };
+		A5F52BD322E1DA1200F911F0 /* WalkPhotoBoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BD222E1DA1200F911F0 /* WalkPhotoBoothViewController.swift */; };
+		A5F52BD522E1DA2100F911F0 /* WalkPhotoBoothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BD422E1DA2100F911F0 /* WalkPhotoBoothViewModel.swift */; };
+		A5F52BD722E1DA3000F911F0 /* WalkPhotoBoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F52BD622E1DA3000F911F0 /* WalkPhotoBoothViewController.xib */; };
+		A5F52BDA22E1DA7B00F911F0 /* WalkPhotoBoothDisplayCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BD922E1DA7B00F911F0 /* WalkPhotoBoothDisplayCollection.swift */; };
+		A5F52BDC22E1DF1500F911F0 /* WalkPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BDB22E1DF1500F911F0 /* WalkPhotoModel.swift */; };
+		A5F52BDF22E1E15C00F911F0 /* AnyViewDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BDE22E1E15C00F911F0 /* AnyViewDataModel.swift */; };
+		A5F52BE122E1E17900F911F0 /* DisplayDataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BE022E1E17900F911F0 /* DisplayDataCollection.swift */; };
+		A5F52BE522E1E23F00F911F0 /* WalkPhotoBoothTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BE422E1E23F00F911F0 /* WalkPhotoBoothTableCell.swift */; };
+		A5F52BE722E1E25600F911F0 /* WalkPhotoBoothTableItemDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BE622E1E25600F911F0 /* WalkPhotoBoothTableItemDataModel.swift */; };
+		A5F52BE922E1E26100F911F0 /* WalkPhotoBoothTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F52BE822E1E26100F911F0 /* WalkPhotoBoothTableCell.xib */; };
+		A5F52BED22E1E5EF00F911F0 /* UITableView+CellViewDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BEC22E1E5EF00F911F0 /* UITableView+CellViewDataModel.swift */; };
+		A5F52BF222E369A500F911F0 /* UITableView+Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BF122E369A500F911F0 /* UITableView+Registration.swift */; };
+		A5F52BF522E36A6300F911F0 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BF422E36A6300F911F0 /* UIView+Nib.swift */; };
+		A5F52BF822E36AB200F911F0 /* UITableViewCell+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BF722E36AB200F911F0 /* UITableViewCell+Reusable.swift */; };
+		A5F52BFB22E371AF00F911F0 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BFA22E371AF00F911F0 /* Reusable.swift */; };
+		A5F52BFE22E3723C00F911F0 /* UITableViewHeaderFooterView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52BFD22E3723C00F911F0 /* UITableViewHeaderFooterView+Reusable.swift */; };
+		A5F52C0322E3798800F911F0 /* LocalPhotoDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52C0222E3798800F911F0 /* LocalPhotoDatabase.swift */; };
+		A5F52C0522E37AD900F911F0 /* PhotoPlacesNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52C0422E37AD900F911F0 /* PhotoPlacesNetworkService.swift */; };
+		A5F52C0722E37B8900F911F0 /* WalkTrackLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52C0622E37B8900F911F0 /* WalkTrackLocationService.swift */; };
+		A5F52C0B22E37EA100F911F0 /* WalkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52C0A22E37EA100F911F0 /* WalkManager.swift */; };
+		A5F52C0D22E3A12C00F911F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52C0C22E3A12C00F911F0 /* Constants.swift */; };
+		A5F52C1222E3B1C700F911F0 /* FlickrSearchImagesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F52C1122E3B1C700F911F0 /* FlickrSearchImagesResponse.swift */; };
+		AD97281431309D66EE37EB17 /* Pods_TrackYourWalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF80FAB1B27CC6B4F98FAEF2 /* Pods_TrackYourWalkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +66,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A58821B586FECA9780949EF /* Pods-TrackYourWalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackYourWalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackYourWalkTests/Pods-TrackYourWalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A2EB472BE3AA2EDF8D5E991 /* Pods-TrackYourWalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackYourWalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackYourWalk/Pods-TrackYourWalk.debug.xcconfig"; sourceTree = "<group>"; };
+		A05FB89706840FEFF6E8472F /* Pods_TrackYourWalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackYourWalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51A1CBA22EB887900F939F2 /* WalkManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkManagerTest.swift; sourceTree = "<group>"; };
+		A51A1CC022EB892B00F939F2 /* WalkTrackLocationServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkTrackLocationServiceMock.swift; sourceTree = "<group>"; };
+		A51A1CC222EB895300F939F2 /* PhotoPlacesNetworkServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPlacesNetworkServiceMock.swift; sourceTree = "<group>"; };
+		A51A1CC422EB897C00F939F2 /* LocalPhotoDatabaseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPhotoDatabaseMock.swift; sourceTree = "<group>"; };
+		A5D661E722E98C3900FFC29C /* CoreDataPhotoModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CoreDataPhotoModel+CoreDataProperties.swift"; path = "/Users/konstantyn/Documents/Projects/TrackYourWalk/TrackYourWalk/BusinessLogic/Models/DatabaseModels/CoreDataPhotoModel+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		A5D661E822E98C3900FFC29C /* CoreDataPhotoModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CoreDataPhotoModel+CoreDataClass.swift"; path = "/Users/konstantyn/Documents/Projects/TrackYourWalk/TrackYourWalk/BusinessLogic/Models/DatabaseModels/CoreDataPhotoModel+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		A5D661ED22E99B4900FFC29C /* ViewController+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Error.swift"; sourceTree = "<group>"; };
 		A5F52B7522E1D2B200F911F0 /* TrackYourWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackYourWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5F52B7822E1D2B300F911F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5F52B7A22E1D2B300F911F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A5F52B7D22E1D2B300F911F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A5F52B8022E1D2B300F911F0 /* TrackYourWalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackYourWalk.xcdatamodel; sourceTree = "<group>"; };
-		A5F52B8222E1D2B400F911F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A5F52B8522E1D2B400F911F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A5F52B8722E1D2B400F911F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5F52B8C22E1D2B400F911F0 /* TrackYourWalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackYourWalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F52B9022E1D2B400F911F0 /* TrackYourWalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackYourWalkTests.swift; sourceTree = "<group>"; };
 		A5F52B9222E1D2B400F911F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F52BA522E1D4A400F911F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5F52BA722E1D4A400F911F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5F52BA922E1D4A400F911F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5F52BAB22E1D4A400F911F0 /* TrackYourWalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackYourWalk.xcdatamodel; sourceTree = "<group>"; };
+		A5F52BAC22E1D4A400F911F0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F52BAF22E1D4A400F911F0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5F52BB822E1D57000F911F0 /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
+		A5F52BBA22E1D58B00F911F0 /* ObservableContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableContext.swift; sourceTree = "<group>"; };
+		A5F52BBE22E1D6EA00F911F0 /* Closure+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Closure+Extension.swift"; sourceTree = "<group>"; };
+		A5F52BC222E1D83300F911F0 /* MainFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowCoordinator.swift; sourceTree = "<group>"; };
+		A5F52BC422E1D84500F911F0 /* MainFlowContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowContext.swift; sourceTree = "<group>"; };
+		A5F52BC622E1D85B00F911F0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A5F52BC822E1D86900F911F0 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		A5F52BCD22E1D9D500F911F0 /* WalkPhotoBoothFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPhotoBoothFlowCoordinator.swift; sourceTree = "<group>"; };
+		A5F52BCF22E1D9DE00F911F0 /* WalkPhotoBoothFlowContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPhotoBoothFlowContext.swift; sourceTree = "<group>"; };
+		A5F52BD222E1DA1200F911F0 /* WalkPhotoBoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPhotoBoothViewController.swift; sourceTree = "<group>"; };
+		A5F52BD422E1DA2100F911F0 /* WalkPhotoBoothViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPhotoBoothViewModel.swift; sourceTree = "<group>"; };
+		A5F52BD622E1DA3000F911F0 /* WalkPhotoBoothViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalkPhotoBoothViewController.xib; sourceTree = "<group>"; };
+		A5F52BD922E1DA7B00F911F0 /* WalkPhotoBoothDisplayCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPhotoBoothDisplayCollection.swift; sourceTree = "<group>"; };
+		A5F52BDB22E1DF1500F911F0 /* WalkPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPhotoModel.swift; sourceTree = "<group>"; };
+		A5F52BDE22E1E15C00F911F0 /* AnyViewDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewDataModel.swift; sourceTree = "<group>"; };
+		A5F52BE022E1E17900F911F0 /* DisplayDataCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDataCollection.swift; sourceTree = "<group>"; };
+		A5F52BE422E1E23F00F911F0 /* WalkPhotoBoothTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPhotoBoothTableCell.swift; sourceTree = "<group>"; };
+		A5F52BE622E1E25600F911F0 /* WalkPhotoBoothTableItemDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkPhotoBoothTableItemDataModel.swift; sourceTree = "<group>"; };
+		A5F52BE822E1E26100F911F0 /* WalkPhotoBoothTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalkPhotoBoothTableCell.xib; sourceTree = "<group>"; };
+		A5F52BEC22E1E5EF00F911F0 /* UITableView+CellViewDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+CellViewDataModel.swift"; sourceTree = "<group>"; };
+		A5F52BF122E369A500F911F0 /* UITableView+Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Registration.swift"; sourceTree = "<group>"; };
+		A5F52BF422E36A6300F911F0 /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		A5F52BF722E36AB200F911F0 /* UITableViewCell+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Reusable.swift"; sourceTree = "<group>"; };
+		A5F52BFA22E371AF00F911F0 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		A5F52BFD22E3723C00F911F0 /* UITableViewHeaderFooterView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewHeaderFooterView+Reusable.swift"; sourceTree = "<group>"; };
+		A5F52C0222E3798800F911F0 /* LocalPhotoDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPhotoDatabase.swift; sourceTree = "<group>"; };
+		A5F52C0422E37AD900F911F0 /* PhotoPlacesNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPlacesNetworkService.swift; sourceTree = "<group>"; };
+		A5F52C0622E37B8900F911F0 /* WalkTrackLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkTrackLocationService.swift; sourceTree = "<group>"; };
+		A5F52C0A22E37EA100F911F0 /* WalkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkManager.swift; sourceTree = "<group>"; };
+		A5F52C0C22E3A12C00F911F0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A5F52C1122E3B1C700F911F0 /* FlickrSearchImagesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrSearchImagesResponse.swift; sourceTree = "<group>"; };
+		DDBE630008592EA6A807FB1B /* Pods-TrackYourWalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackYourWalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackYourWalk/Pods-TrackYourWalk.release.xcconfig"; sourceTree = "<group>"; };
+		DF80FAB1B27CC6B4F98FAEF2 /* Pods_TrackYourWalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackYourWalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F263226A37C5A67F4C3D63F8 /* Pods-TrackYourWalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackYourWalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackYourWalkTests/Pods-TrackYourWalkTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811FF9B4D5ED7CD69120BC72 /* Pods_TrackYourWalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,20 +135,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD97281431309D66EE37EB17 /* Pods_TrackYourWalkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CD5D219E979C0E02BECF02E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A2EB472BE3AA2EDF8D5E991 /* Pods-TrackYourWalk.debug.xcconfig */,
+				DDBE630008592EA6A807FB1B /* Pods-TrackYourWalk.release.xcconfig */,
+				F263226A37C5A67F4C3D63F8 /* Pods-TrackYourWalkTests.debug.xcconfig */,
+				1A58821B586FECA9780949EF /* Pods-TrackYourWalkTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5ED185193B1B029EE5C46772 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A05FB89706840FEFF6E8472F /* Pods_TrackYourWalk.framework */,
+				DF80FAB1B27CC6B4F98FAEF2 /* Pods_TrackYourWalkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A51A1CB922EB887900F939F2 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				A51A1CBA22EB887900F939F2 /* WalkManagerTest.swift */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		A51A1CBF22EB891800F939F2 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				A51A1CC022EB892B00F939F2 /* WalkTrackLocationServiceMock.swift */,
+				A51A1CC222EB895300F939F2 /* PhotoPlacesNetworkServiceMock.swift */,
+				A51A1CC422EB897C00F939F2 /* LocalPhotoDatabaseMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		A5D661EC22E99B3100FFC29C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A5D661ED22E99B4900FFC29C /* ViewController+Error.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A5E165E022E7AE34001FC394 /* DatabaseModels */ = {
+			isa = PBXGroup;
+			children = (
+				A5D661E822E98C3900FFC29C /* CoreDataPhotoModel+CoreDataClass.swift */,
+				A5D661E722E98C3900FFC29C /* CoreDataPhotoModel+CoreDataProperties.swift */,
+			);
+			path = DatabaseModels;
+			sourceTree = "<group>";
+		};
 		A5F52B6C22E1D2B200F911F0 = {
 			isa = PBXGroup;
 			children = (
 				A5F52B7722E1D2B200F911F0 /* TrackYourWalk */,
 				A5F52B8F22E1D2B400F911F0 /* TrackYourWalkTests */,
 				A5F52B7622E1D2B200F911F0 /* Products */,
+				5CD5D219E979C0E02BECF02E /* Pods */,
+				5ED185193B1B029EE5C46772 /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		A5F52B7622E1D2B200F911F0 /* Products */ = {
 			isa = PBXGroup;
@@ -79,13 +222,10 @@
 		A5F52B7722E1D2B200F911F0 /* TrackYourWalk */ = {
 			isa = PBXGroup;
 			children = (
-				A5F52B7822E1D2B300F911F0 /* AppDelegate.swift */,
-				A5F52B7A22E1D2B300F911F0 /* ViewController.swift */,
-				A5F52B7C22E1D2B300F911F0 /* Main.storyboard */,
-				A5F52B8222E1D2B400F911F0 /* Assets.xcassets */,
-				A5F52B8422E1D2B400F911F0 /* LaunchScreen.storyboard */,
-				A5F52B8722E1D2B400F911F0 /* Info.plist */,
-				A5F52B7F22E1D2B300F911F0 /* TrackYourWalk.xcdatamodeld */,
+				A5F52BAD22E1D4A400F911F0 /* Application */,
+				A5F52B9B22E1D4A400F911F0 /* BusinessLogic */,
+				A5F52B9E22E1D4A400F911F0 /* Presentation */,
+				A5F52BA422E1D4A400F911F0 /* Resources */,
 			);
 			path = TrackYourWalk;
 			sourceTree = "<group>";
@@ -93,10 +233,319 @@
 		A5F52B8F22E1D2B400F911F0 /* TrackYourWalkTests */ = {
 			isa = PBXGroup;
 			children = (
+				A51A1CBF22EB891800F939F2 /* Mocks */,
+				A51A1CB922EB887900F939F2 /* BusinessLogic */,
 				A5F52B9022E1D2B400F911F0 /* TrackYourWalkTests.swift */,
 				A5F52B9222E1D2B400F911F0 /* Info.plist */,
 			);
 			path = TrackYourWalkTests;
+			sourceTree = "<group>";
+		};
+		A5F52B9B22E1D4A400F911F0 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52B9C22E1D4A400F911F0 /* Models */,
+				A5F52C0922E37E8B00F911F0 /* Managers */,
+				A5F52B9D22E1D4A400F911F0 /* Services */,
+				A5F52C0C22E3A12C00F911F0 /* Constants.swift */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		A5F52B9C22E1D4A400F911F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5E165E022E7AE34001FC394 /* DatabaseModels */,
+				A5F52C1022E3B1A800F911F0 /* NetworkModels */,
+				A5F52BDB22E1DF1500F911F0 /* WalkPhotoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5F52B9D22E1D4A400F911F0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52C0122E3797200F911F0 /* LocationServices */,
+				A5F52C0022E3796400F911F0 /* NetworkServices */,
+				A5F52BFF22E3795800F911F0 /* LocalDatabases */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A5F52B9E22E1D4A400F911F0 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BA022E1D4A400F911F0 /* NavigationFlow */,
+				A5F52BA122E1D4A400F911F0 /* UserFlows */,
+				A5F52BA322E1D4A400F911F0 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A5F52BA022E1D4A400F911F0 /* NavigationFlow */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BB822E1D57000F911F0 /* FlowCoordinator.swift */,
+				A5F52BBA22E1D58B00F911F0 /* ObservableContext.swift */,
+			);
+			path = NavigationFlow;
+			sourceTree = "<group>";
+		};
+		A5F52BA122E1D4A400F911F0 /* UserFlows */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BA222E1D4A400F911F0 /* Main */,
+				A5F52BCA22E1D95900F911F0 /* WalkPhotoBooth */,
+			);
+			path = UserFlows;
+			sourceTree = "<group>";
+		};
+		A5F52BA222E1D4A400F911F0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BC022E1D80600F911F0 /* Coordinator */,
+				A5F52BC122E1D81200F911F0 /* Screens */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A5F52BA322E1D4A400F911F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BE222E1E1FE00F911F0 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5F52BA422E1D4A400F911F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BA522E1D4A400F911F0 /* Assets.xcassets */,
+				A5F52BA622E1D4A400F911F0 /* LaunchScreen.storyboard */,
+				A5F52BA822E1D4A400F911F0 /* Main.storyboard */,
+				A5F52BAA22E1D4A400F911F0 /* TrackYourWalk.xcdatamodeld */,
+				A5F52BAC22E1D4A400F911F0 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A5F52BAD22E1D4A400F911F0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BAF22E1D4A400F911F0 /* AppDelegate.swift */,
+				A5F52BAE22E1D4A400F911F0 /* Extension */,
+				A5F52BB022E1D4A400F911F0 /* Helpers */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A5F52BAE22E1D4A400F911F0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BEA22E1E5C400F911F0 /* UIKit */,
+				A5F52BBD22E1D6D700F911F0 /* Foundation */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A5F52BB022E1D4A400F911F0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BDD22E1E13600F911F0 /* DisplayDataCollection */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A5F52BBD22E1D6D700F911F0 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BBE22E1D6EA00F911F0 /* Closure+Extension.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		A5F52BC022E1D80600F911F0 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BC222E1D83300F911F0 /* MainFlowCoordinator.swift */,
+				A5F52BC422E1D84500F911F0 /* MainFlowContext.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A5F52BC122E1D81200F911F0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BC622E1D85B00F911F0 /* MainViewController.swift */,
+				A5F52BC822E1D86900F911F0 /* MainViewModel.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A5F52BCA22E1D95900F911F0 /* WalkPhotoBooth */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BCB22E1D96E00F911F0 /* Coordinator */,
+				A5F52BCC22E1D97700F911F0 /* Screens */,
+			);
+			path = WalkPhotoBooth;
+			sourceTree = "<group>";
+		};
+		A5F52BCB22E1D96E00F911F0 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BCD22E1D9D500F911F0 /* WalkPhotoBoothFlowCoordinator.swift */,
+				A5F52BCF22E1D9DE00F911F0 /* WalkPhotoBoothFlowContext.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A5F52BCC22E1D97700F911F0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BD122E1D9E500F911F0 /* WalkPhotoBooth */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A5F52BD122E1D9E500F911F0 /* WalkPhotoBooth */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BD822E1DA6100F911F0 /* DisplayCollection */,
+				A5F52BD222E1DA1200F911F0 /* WalkPhotoBoothViewController.swift */,
+				A5F52BD422E1DA2100F911F0 /* WalkPhotoBoothViewModel.swift */,
+				A5F52BD622E1DA3000F911F0 /* WalkPhotoBoothViewController.xib */,
+			);
+			path = WalkPhotoBooth;
+			sourceTree = "<group>";
+		};
+		A5F52BD822E1DA6100F911F0 /* DisplayCollection */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BD922E1DA7B00F911F0 /* WalkPhotoBoothDisplayCollection.swift */,
+			);
+			path = DisplayCollection;
+			sourceTree = "<group>";
+		};
+		A5F52BDD22E1E13600F911F0 /* DisplayDataCollection */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BDE22E1E15C00F911F0 /* AnyViewDataModel.swift */,
+				A5F52BE022E1E17900F911F0 /* DisplayDataCollection.swift */,
+			);
+			path = DisplayDataCollection;
+			sourceTree = "<group>";
+		};
+		A5F52BE222E1E1FE00F911F0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BE322E1E20600F911F0 /* WalkPhotoBoothCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A5F52BE322E1E20600F911F0 /* WalkPhotoBoothCell */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BE422E1E23F00F911F0 /* WalkPhotoBoothTableCell.swift */,
+				A5F52BE622E1E25600F911F0 /* WalkPhotoBoothTableItemDataModel.swift */,
+				A5F52BE822E1E26100F911F0 /* WalkPhotoBoothTableCell.xib */,
+			);
+			path = WalkPhotoBoothCell;
+			sourceTree = "<group>";
+		};
+		A5F52BEA22E1E5C400F911F0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A5D661EC22E99B3100FFC29C /* ViewController */,
+				A5F52BF922E36AD100F911F0 /* Protocols */,
+				A5F52BF322E36A5100F911F0 /* View */,
+				A5F52BEB22E1E5CD00F911F0 /* TableView */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A5F52BEB22E1E5CD00F911F0 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BFC22E3723200F911F0 /* Header */,
+				A5F52BF622E36AA300F911F0 /* Cell */,
+				A5F52BEC22E1E5EF00F911F0 /* UITableView+CellViewDataModel.swift */,
+				A5F52BF122E369A500F911F0 /* UITableView+Registration.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		A5F52BF322E36A5100F911F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BF422E36A6300F911F0 /* UIView+Nib.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5F52BF622E36AA300F911F0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BF722E36AB200F911F0 /* UITableViewCell+Reusable.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A5F52BF922E36AD100F911F0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BFA22E371AF00F911F0 /* Reusable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A5F52BFC22E3723200F911F0 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52BFD22E3723C00F911F0 /* UITableViewHeaderFooterView+Reusable.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		A5F52BFF22E3795800F911F0 /* LocalDatabases */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52C0222E3798800F911F0 /* LocalPhotoDatabase.swift */,
+			);
+			path = LocalDatabases;
+			sourceTree = "<group>";
+		};
+		A5F52C0022E3796400F911F0 /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52C0422E37AD900F911F0 /* PhotoPlacesNetworkService.swift */,
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		A5F52C0122E3797200F911F0 /* LocationServices */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52C0622E37B8900F911F0 /* WalkTrackLocationService.swift */,
+			);
+			path = LocationServices;
+			sourceTree = "<group>";
+		};
+		A5F52C0922E37E8B00F911F0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52C0A22E37EA100F911F0 /* WalkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A5F52C1022E3B1A800F911F0 /* NetworkModels */ = {
+			isa = PBXGroup;
+			children = (
+				A5F52C1122E3B1C700F911F0 /* FlickrSearchImagesResponse.swift */,
+			);
+			path = NetworkModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +555,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5F52B9522E1D2B400F911F0 /* Build configuration list for PBXNativeTarget "TrackYourWalk" */;
 			buildPhases = (
+				B18E07928467A1500F70F037 /* [CP] Check Pods Manifest.lock */,
 				A5F52B7122E1D2B200F911F0 /* Sources */,
 				A5F52B7222E1D2B200F911F0 /* Frameworks */,
 				A5F52B7322E1D2B200F911F0 /* Resources */,
+				A5F52BBC22E1D5B400F911F0 /* Swiftlint Script */,
 			);
 			buildRules = (
 			);
@@ -123,6 +574,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5F52B9822E1D2B400F911F0 /* Build configuration list for PBXNativeTarget "TrackYourWalkTests" */;
 			buildPhases = (
+				51DDAD1E6EE9A8182E7C2315 /* [CP] Check Pods Manifest.lock */,
 				A5F52B8822E1D2B400F911F0 /* Sources */,
 				A5F52B8922E1D2B400F911F0 /* Frameworks */,
 				A5F52B8A22E1D2B400F911F0 /* Resources */,
@@ -180,9 +632,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5F52B8622E1D2B400F911F0 /* LaunchScreen.storyboard in Resources */,
-				A5F52B8322E1D2B400F911F0 /* Assets.xcassets in Resources */,
-				A5F52B7E22E1D2B300F911F0 /* Main.storyboard in Resources */,
+				A5F52BB422E1D4A400F911F0 /* Main.storyboard in Resources */,
+				A5F52BB222E1D4A400F911F0 /* Assets.xcassets in Resources */,
+				A5F52BD722E1DA3000F911F0 /* WalkPhotoBoothViewController.xib in Resources */,
+				A5F52BB322E1D4A400F911F0 /* LaunchScreen.storyboard in Resources */,
+				A5F52BE922E1E26100F911F0 /* WalkPhotoBoothTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +649,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51DDAD1E6EE9A8182E7C2315 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrackYourWalkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F52BBC22E1D5B400F911F0 /* Swiftlint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swiftlint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		B18E07928467A1500F70F037 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrackYourWalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5F52B7122E1D2B200F911F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5F52B8122E1D2B300F911F0 /* TrackYourWalk.xcdatamodeld in Sources */,
-				A5F52B7B22E1D2B300F911F0 /* ViewController.swift in Sources */,
-				A5F52B7922E1D2B300F911F0 /* AppDelegate.swift in Sources */,
+				A5F52BD022E1D9DE00F911F0 /* WalkPhotoBoothFlowContext.swift in Sources */,
+				A5F52BDA22E1DA7B00F911F0 /* WalkPhotoBoothDisplayCollection.swift in Sources */,
+				A5F52BBB22E1D58B00F911F0 /* ObservableContext.swift in Sources */,
+				A5F52BD522E1DA2100F911F0 /* WalkPhotoBoothViewModel.swift in Sources */,
+				A5F52BC522E1D84500F911F0 /* MainFlowContext.swift in Sources */,
+				A5F52C0D22E3A12C00F911F0 /* Constants.swift in Sources */,
+				A5F52BB722E1D4A400F911F0 /* AppDelegate.swift in Sources */,
+				A5D661EA22E98C3900FFC29C /* CoreDataPhotoModel+CoreDataProperties.swift in Sources */,
+				A5F52BE722E1E25600F911F0 /* WalkPhotoBoothTableItemDataModel.swift in Sources */,
+				A5F52BB522E1D4A400F911F0 /* TrackYourWalk.xcdatamodeld in Sources */,
+				A5F52BED22E1E5EF00F911F0 /* UITableView+CellViewDataModel.swift in Sources */,
+				A5F52BE122E1E17900F911F0 /* DisplayDataCollection.swift in Sources */,
+				A5F52BBF22E1D6EA00F911F0 /* Closure+Extension.swift in Sources */,
+				A5F52BB922E1D57000F911F0 /* FlowCoordinator.swift in Sources */,
+				A5F52BFB22E371AF00F911F0 /* Reusable.swift in Sources */,
+				A5F52BC322E1D83300F911F0 /* MainFlowCoordinator.swift in Sources */,
+				A5F52BF222E369A500F911F0 /* UITableView+Registration.swift in Sources */,
+				A5F52BCE22E1D9D500F911F0 /* WalkPhotoBoothFlowCoordinator.swift in Sources */,
+				A5F52BDC22E1DF1500F911F0 /* WalkPhotoModel.swift in Sources */,
+				A5D661E922E98C3900FFC29C /* CoreDataPhotoModel+CoreDataClass.swift in Sources */,
+				A5F52C1222E3B1C700F911F0 /* FlickrSearchImagesResponse.swift in Sources */,
+				A5F52C0322E3798800F911F0 /* LocalPhotoDatabase.swift in Sources */,
+				A5F52BD322E1DA1200F911F0 /* WalkPhotoBoothViewController.swift in Sources */,
+				A5F52BF822E36AB200F911F0 /* UITableViewCell+Reusable.swift in Sources */,
+				A5F52BC722E1D85B00F911F0 /* MainViewController.swift in Sources */,
+				A5D661EE22E99B4900FFC29C /* ViewController+Error.swift in Sources */,
+				A5F52C0522E37AD900F911F0 /* PhotoPlacesNetworkService.swift in Sources */,
+				A5F52BFE22E3723C00F911F0 /* UITableViewHeaderFooterView+Reusable.swift in Sources */,
+				A5F52C0722E37B8900F911F0 /* WalkTrackLocationService.swift in Sources */,
+				A5F52C0B22E37EA100F911F0 /* WalkManager.swift in Sources */,
+				A5F52BF522E36A6300F911F0 /* UIView+Nib.swift in Sources */,
+				A5F52BC922E1D86900F911F0 /* MainViewModel.swift in Sources */,
+				A5F52BDF22E1E15C00F911F0 /* AnyViewDataModel.swift in Sources */,
+				A5F52BE522E1E23F00F911F0 /* WalkPhotoBoothTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +760,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51A1CBE22EB88E100F939F2 /* WalkManagerTest.swift in Sources */,
+				A51A1CC322EB895300F939F2 /* PhotoPlacesNetworkServiceMock.swift in Sources */,
+				A51A1CC522EB897C00F939F2 /* LocalPhotoDatabaseMock.swift in Sources */,
+				A51A1CC122EB892B00F939F2 /* WalkTrackLocationServiceMock.swift in Sources */,
 				A5F52B9122E1D2B400F911F0 /* TrackYourWalkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,20 +779,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A5F52B7C22E1D2B300F911F0 /* Main.storyboard */ = {
+		A5F52BA622E1D4A400F911F0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A5F52B7D22E1D2B300F911F0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A5F52B8422E1D2B400F911F0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5F52B8522E1D2B400F911F0 /* Base */,
+				A5F52BA722E1D4A400F911F0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A5F52BA822E1D4A400F911F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F52BA922E1D4A400F911F0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -362,11 +916,12 @@
 		};
 		A5F52B9622E1D2B400F911F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A2EB472BE3AA2EDF8D5E991 /* Pods-TrackYourWalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72432WGSUQ;
-				INFOPLIST_FILE = TrackYourWalk/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TrackYourWalk/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,11 +935,12 @@
 		};
 		A5F52B9722E1D2B400F911F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDBE630008592EA6A807FB1B /* Pods-TrackYourWalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72432WGSUQ;
-				INFOPLIST_FILE = TrackYourWalk/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TrackYourWalk/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,6 +954,7 @@
 		};
 		A5F52B9922E1D2B400F911F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F263226A37C5A67F4C3D63F8 /* Pods-TrackYourWalkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +976,7 @@
 		};
 		A5F52B9A22E1D2B400F911F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A58821B586FECA9780949EF /* Pods-TrackYourWalkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,12 +1029,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A5F52B7F22E1D2B300F911F0 /* TrackYourWalk.xcdatamodeld */ = {
+		A5F52BAA22E1D4A400F911F0 /* TrackYourWalk.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A5F52B8022E1D2B300F911F0 /* TrackYourWalk.xcdatamodel */,
+				A5F52BAB22E1D4A400F911F0 /* TrackYourWalk.xcdatamodel */,
 			);
-			currentVersion = A5F52B8022E1D2B300F911F0 /* TrackYourWalk.xcdatamodel */;
+			currentVersion = A5F52BAB22E1D4A400F911F0 /* TrackYourWalk.xcdatamodel */;
 			path = TrackYourWalk.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
